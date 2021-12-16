@@ -1,5 +1,4 @@
-var card = {"suit": "하트", 'rank': "A"};
-console.log("suit" in card); // true
-console.log("color" in card); // false
-
-console.log("toString" in card) // true
+var a = ["A", "B", "C"];
+a[4] = "E";
+console.log(a); // [ 'A', 'B', 'C', <1 empty item>, 'E' ]
+console.log(a.length) // 5
